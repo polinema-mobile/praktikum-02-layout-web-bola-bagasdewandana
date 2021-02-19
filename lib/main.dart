@@ -20,21 +20,21 @@ class MyApp extends StatelessWidget {
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Container(
+              children: <Widget>[
+                Expanded(
                   child: OutlineButton(
                     onPressed: () {},
-                    borderSide: BorderSide(color: Colors.white10),
+                    borderSide: BorderSide(color: Colors.red),
                     child: Text('BERITA TERBARU'),
                     ),
                 ),
                 SizedBox(
-                  width: 5,
+                  width:  10,
                 ),
-                Container(
+                Expanded(
                   child: OutlineButton(
                     onPressed: () {},
-                    borderSide: BorderSide(color: Colors.white10),
+                    borderSide: BorderSide(color: Colors.red),
                     child: Text('PERTANDINGAN HARI INI'),
                   ),
                 ),
